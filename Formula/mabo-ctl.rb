@@ -9,23 +9,23 @@ class MaboCtl < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/maborak/mabo-ctl/releases/download/v1.5.0/mabo-ctl-darwin-arm64"
-      sha256 "28c26b8890650045782f351fe900c776c4d6b4f977cafc6e9e5f84378d594795"
+      url "https://github.com/maborak/mabo-ctl/releases/download/v1.5.1/mabo-ctl-darwin-arm64"
+      sha256 "47a6f7ee8362b3bc86b881edc7d1b263d14c9b2c30396273a307e12f481a6f92"
     end
     on_intel do
-      url "https://github.com/maborak/mabo-ctl/releases/download/v1.5.0/mabo-ctl-darwin-amd64"
-      sha256 "e5f172336b9760f85878414bed719d275e27dd22dfcd22cceba29b60dd60fa7d"
+      url "https://github.com/maborak/mabo-ctl/releases/download/v1.5.1/mabo-ctl-darwin-amd64"
+      sha256 "4cc7345a5db440a9e20a4873039e2d4d7f36fe9e4cbca6101e023bea23b66e0c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/maborak/mabo-ctl/releases/download/v1.5.0/mabo-ctl-linux-arm64"
-      sha256 "098a1d778ba11e7d616f3a74fbdca11fe03b7db0bba16db44cb3ae7ab182c0db"
+      url "https://github.com/maborak/mabo-ctl/releases/download/v1.5.1/mabo-ctl-linux-arm64"
+      sha256 "da54efa17da1ce7a67232b9fc79c08e6cec9d6eaccdbf0a85cbad1ae6efca1bd"
     end
     on_intel do
-      url "https://github.com/maborak/mabo-ctl/releases/download/v1.5.0/mabo-ctl-linux-amd64"
-      sha256 "ee2f628a095860c9a956a3c67302590022d94d8817e1f31b54aa4f42ee60bd7e"
+      url "https://github.com/maborak/mabo-ctl/releases/download/v1.5.1/mabo-ctl-linux-amd64"
+      sha256 "2e05303542904c4e890357f97514dec9dc8b54c26b3c31587ef39ef753668f4f"
     end
   end
 
